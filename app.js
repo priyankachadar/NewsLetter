@@ -66,9 +66,9 @@ const url = "https://us7.api.mailchimp.com/3.0/lists/54d92cb9ee";
 });
 
 app.post("/failure", function(req, res){
-	res.redirect("/")
+	res.redirect("/");
 	
-})
+});
 
 app.listen(process.env.PORT || 3000, function(){
 	console.log("sever is running on port 3000");
