@@ -74,9 +74,3 @@ app.listen(process.env.PORT || 3000, function(){
 	console.log("sever is running on port 3000");
 	
 });
-
-//API KEY
-//11eee8e1607ce08d785ff1616cdcd0b0-us7
-
-// id mailchipm list id
-//54d92cb9ee
